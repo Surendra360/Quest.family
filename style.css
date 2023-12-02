@@ -190,6 +190,7 @@ body{
 }
 .b1-text>h3{
     font-weight: 600;
+    margin-left: 20px;
 }
 .b1-text>p{
     font-size: 15px;
@@ -197,7 +198,7 @@ body{
 }
 .b1-icon>i{
     margin-right: 2px;
-    font-size: 20px;
+    font-size: 2vh;
     color: gray;
     font-weight: 500;
 }
@@ -440,8 +441,8 @@ body{
     font-weight: 500;
 }
 .p4-container>button{
-    width: 17%;
-    height: 5%;
+    width: 23vh;
+    height: 6vh;
     font-size: 16px;
     color: white;
     border-radius: 50px;
@@ -513,4 +514,213 @@ body{
 .p5-box1>p{
     color: gray;
     text-align: center;
+}
+
+
+.page6{
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(p5.png);
+    background-repeat: no-repeat;
+    background-position:0 100%;
+    background-size: 50%;
+    /* background-color: greenyellow; */
+}
+.p6-container{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: green; */
+}
+.p6-c1{
+    width: 100%;
+    height: 40%;
+    /* background-color: yellow;
+    background-image: url(p6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;  */
+}
+.p6-c2{
+    width: 40%;
+    height: 30%;
+    margin-bottom: 20px;
+    margin-left: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* background-color: aqua; */
+}
+.c2-col{
+    width: 100%;
+    height: 55%;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: red; */
+}
+.c2-col1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.c2-col2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.c2-col3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.c2-col1>p{
+    text-align: center;
+    margin-left: 0;
+    color: gray;
+}
+.c2-col2>p{
+    text-align: center;
+    margin-left: 0;
+    color: gray;
+}
+.c2-col3>p{
+    text-align: center;
+    margin-left: 0;
+    color: gray;
+}
+.store{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    gap: 20px;
+    /* background-color: red; */
+}
+.apple{
+    width: 35%;
+    height: 90%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    margin-left: 30px;
+    background-color: black;
+}
+.apple>i{
+    width: 20%;
+    height: 100%;
+    margin-left: 5px;
+    font-size: 35px;
+}
+.app-name>p{
+    font-size: 9px;
+    margin-left: 5px;
+}
+.google{
+    
+    width: 35%;
+    height: 90%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    margin-left: 30px;
+    background-color: black;
+}
+.google>i{
+    width: 20%;
+    height: 100%;
+    margin-left: 5px;
+    font-size: 35px;
+}
+.app-name>p{
+    font-size: 9px;
+    margin-left: 5px;
+}
+.media{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    /* background-color: red; */
+}
+.media>i{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7vh;
+    height: 100%;
+    font-size: 4vh;
+    border-radius: 50px;
+    margin-right: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 1s;
+}
+.media>i:hover{
+    background-color: black;
+    color: white; 
+}
+
+
+@media (max-width:600px) {
+   
+    .main{
+        width: 150vh;
+    }
+    .nav-part1{
+      /* margin-left: 60vh; */
+      width: 150vh;
+
+    }
+    .nav-part2{
+        display: none;  
+    }
+    .p1-c{
+        width: 140vh;
+        display: flex;
+        align-items: start;
+        flex-direction: row;
+        margin-top: 5vh;
+    }
+    .p1-c>button{
+        position: absolute;
+        left: 80vh;
+        top: 35vh;
+    }
+    .p2-c1{
+        width: 140vh;
+    }
+    .p3-nav{
+        width: 130vh;
+    }
+    .p3-nav-part1{
+        width: 40%;
+    }
+    .p3-c1{
+        width: 140vh;
+    }
+    .p4-container{
+        width: 140vh;
+    }
+    .p5-container{
+        width: 140vh;
+        height: 80vh;
+    }
+    .p6-container{
+        width: 140vh;
+    }
+    .p6-c2{
+        width: 70vh;
+    }
+    
 }
